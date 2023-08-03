@@ -1,5 +1,5 @@
 
-## Selected projects in Data Science and Machine Learning
+## Portfolio | Data Science and Machine Learning
 
 ---
 
