@@ -197,6 +197,17 @@ section {
   padding-bottom:50px;
 }
 
+section:hover header {
+  opacity: 0;
+  transition: 2s;
+}
+
+section:hover {
+  width:800px;
+  float:center;
+  transition: 2s;
+}
+
 small {
   font-size:11px;
 }
