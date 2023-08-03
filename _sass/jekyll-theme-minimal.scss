@@ -35,7 +35,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#000;
   text-decoration:none;
 }
 
@@ -126,11 +126,6 @@ kbd {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-.side-bar:hover {
-  opacity:0;
-  transition:2s;
-}
-
 ul.downloads {
   list-style:none;
   height:40px;
@@ -197,16 +192,6 @@ strong {
   padding-bottom:50px;
 }
 
-.posts:hover .side-bar {
-  opacity: 0;
-  transition: 2s;
-}
-
-.posts:hover {
-  width:800px;
-  float:center;
-  transition: 2s;
-}
 
 small {
   font-size:11px;
