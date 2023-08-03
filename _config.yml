@@ -1,11 +1,10 @@
 title: Murilo Holtz Foltran # your name (or website title) here
 logo: "/images/murilo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Bachelor of Science and Technology, currently finishing my second degree in Computer Science.
+  In love with programming, Machine Learning and data.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  View my LinkedIn Profile <a href="https://www.linkedin.com/in/muriloholtz/">here</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
