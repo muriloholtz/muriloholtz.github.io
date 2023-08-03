@@ -118,7 +118,7 @@ kbd {
   vertical-align: middle;
 }
 
-header {
+.side-bar {
   width:270px;
   float:left;
   position:fixed;
@@ -126,7 +126,7 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header:hover {
+.side-bar:hover {
   opacity:0;
   transition:2s;
 }
@@ -197,7 +197,7 @@ section {
   padding-bottom:50px;
 }
 
-section:hover header {
+section:hover .side-bar {
   opacity: 0;
   transition: 2s;
 }
@@ -234,13 +234,13 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  .side-bar, section, footer {
     float:none;
     position:static;
     width:auto;
   }
 
-  header {
+  .side-bar {
     padding-right:320px;
   }
 
@@ -251,11 +251,11 @@ footer {
     margin:0 0 20px;
   }
 
-  header a small {
+  .side-bar a small {
     display:inline;
   }
 
-  header ul {
+  .side-bar ul {
     position:absolute;
     right:50px;
     top:52px;
@@ -267,11 +267,11 @@ footer {
     word-wrap:break-word;
   }
 
-  header {
+  .side-bar {
     padding:0;
   }
 
-  header ul, header p.view {
+  .side-bar ul, .side-bar p.view {
     position:static;
   }
 
