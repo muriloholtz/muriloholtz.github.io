@@ -191,18 +191,18 @@ strong {
   color:#222;
 }
 
-section {
+.posts {
   width:500px;
   float:right;
   padding-bottom:50px;
 }
 
-section:hover .side-bar {
+.posts:hover .side-bar {
   opacity: 0;
   transition: 2s;
 }
 
-section:hover {
+.posts:hover {
   width:800px;
   float:center;
   transition: 2s;
@@ -234,7 +234,7 @@ footer {
     margin:0;
   }
 
-  .side-bar, section, footer {
+  .side-bar, .posts, footer {
     float:none;
     position:static;
     width:auto;
@@ -244,7 +244,7 @@ footer {
     padding-right:320px;
   }
 
-  section {
+  .posts {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
