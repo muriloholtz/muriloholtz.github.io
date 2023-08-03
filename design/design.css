@@ -9,7 +9,7 @@
     background-position: center top;
   }
 
-  .header:hover {
+.header:hover {
     background-image: url("img/0.gif");
   }
 
