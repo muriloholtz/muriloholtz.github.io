@@ -1,6 +1,5 @@
-<span style="color:#c50000">
+
 ## Selected projects in Data Science and Machine Learning
-</span>
 
 ---
 
