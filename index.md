@@ -22,5 +22,5 @@ The dataset used includes three iris species with 50 samples each as well as som
 
 [1. View code on Colab](https://colab.research.google.com/drive/1dfI1twAIBGb7UJna3posjjmtAWBJIgAJ?usp=sharing)
 
-[2. View PDF](/Iris1)
+[2. View PDF](/post-Iris.pdf)
 
