@@ -13,6 +13,22 @@ In this work, the goal is to employ **Convolutional Neural Networks (CNN)** for 
 
 ---
 
+### Breast Cancer Detection with Machine Learning and Classification Algorithms
+In this work, classification algorithms and concepts of Artificial Intelligence and Machine Learning were implemented for data analysis and detection of breast cancer from a database with 569 patients.
+- Data Cleaning
+- Self-organizing maps
+- Logistic Regression
+- KNN (K-Nearest Neighbours)
+- Decision Tree
+- Random Forest
+
+#### This was the final project for the Artificial Inteligence course at the Federal University of São Paulo
+
+<img src="images/post-IA.png?raw=true" />
+
+[View code on Colab](https://colab.research.google.com/)
+
+---
 
 ### Development of classification algorithms with Iris Species dataset
 The best way to know which classification algorithm works better is by testing them. In this work, Iris dataset was separated in groups for training and testing. Also, algorithms such as **KNN (K Nearest Neighbours)**, **Naive Bayes** and **Hunt** were developed from scratch [1]. Then, **SVM (Support Vector Machine)** and **(MLP) Multi-layer Perceptron** were developed using sklearn [2].
