@@ -20,7 +20,16 @@ The dataset used includes three iris species with 50 samples each as well as som
 
 <img src="images/post-Iris.png?raw=true" />
 
-[1. View code on Colab](https://colab.research.google.com/drive/1dfI1twAIBGb7UJna3posjjmtAWBJIgAJ?usp=sharing)
+[[1] View code on Colab](https://colab.research.google.com/drive/1dfI1twAIBGb7UJna3posjjmtAWBJIgAJ?usp=sharing)
 
-[2. View PDF](/post-Iris.pdf)
+[[2] View PDF](/post-Iris.pdf)
+
+---
+
+### Clustering algorithms
+K-Means and Single Linkage were excecuted in three different datasets to analyse these clustering algorithms. Through graphics, we can determine which one did a better job. 
+
+<img src="images/post-clustering.png?raw=true" />
+
+[View code on Colab](https://colab.research.google.com/drive/1zD5M_T--WJvxCwOemLocA0aXMS-mMizm?usp=sharing)
 
