@@ -22,7 +22,7 @@ In this work, classification algorithms and concepts of Artificial Intelligence 
 - Decision Tree
 - Random Forest
 
-#### This was the final project for the Artificial Inteligence course at the Federal University of São Paulo
+_This was the final project for the Artificial Inteligence course at the Federal University of São Paulo_
 
 <img src="images/post-IA.png?raw=true" />
 
