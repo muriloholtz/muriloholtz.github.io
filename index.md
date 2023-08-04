@@ -4,7 +4,7 @@
 ---
 
 ### Classification of brain tumors using convolutional neural networks and magnetic resonance imaging
-In this work, the goal is to employ **Convolutional Neural Networks (CNN)** for brain tumor detection from different datasets. In addition to the implementation, the algorithms were validated based on metrics that direct us to choose the best model.
+In this work, the goal is to employ Convolutional Neural Networks (CNN) for brain tumor detection from different datasets. In addition to the implementation, the algorithms were validated based on metrics that direct us to choose the best model.
 
 
 <img src="images/post1.png?raw=true" />
@@ -31,7 +31,7 @@ _This was the final project for the Artificial Inteligence course at the Federal
 ---
 
 ### Development of classification algorithms with Iris Species dataset
-The best way to know which classification algorithm works better is by testing them. In this work, Iris dataset was separated in groups for training and testing. Also, algorithms such as **KNN (K Nearest Neighbours)**, **Naive Bayes** and **Hunt** were developed from scratch [1]. Then, **SVM (Support Vector Machine)** and **(MLP) Multi-layer Perceptron** were developed using sklearn [2].
+The best way to know which classification algorithm works better is by testing them. In this work, Iris dataset was separated in groups for training and testing. Also, algorithms such as KNN (K Nearest Neighbours), Naive Bayes and Hunt were developed from scratch [1]. Then, SVM (Support Vector Machine) and MLP (Multi-layer Perceptron) were developed using sklearn [2].
 The dataset used includes three iris species with 50 samples each as well as some properties about each flower.
 
 [1] [View code on Colab](https://colab.research.google.com/drive/1dfI1twAIBGb7UJna3posjjmtAWBJIgAJ?usp=sharing)
@@ -41,7 +41,7 @@ The dataset used includes three iris species with 50 samples each as well as som
 ---
 
 ### Clustering algorithms
-**K-Means** and **Single Linkage** were excecuted in three different datasets to analyse these clustering algorithms. Through graphics, we can determine which one did a better job. 
+K-Means and Single Linkage were excecuted in three different datasets to analyse these clustering algorithms. Through graphics, we can determine which one did a better job. 
 
 <img src="images/post-clustering.png?raw=true" />
 
