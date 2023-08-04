@@ -9,11 +9,11 @@ In this work, the goal is to employ Convolutional Neural Networks (CNN) for brai
 
 <img src="images/post1.png?raw=true" />
 
-[View code on Colab](https://colab.research.google.com/)
+[View code on Colab](https://colab.research.google.com/) (In progress)
 
 ---
 
-### Breast Cancer Detection with Machine Learning and Classification Algorithms
+### Breast cancer detection with machine learning and classification algorithms
 In this work, classification algorithms and concepts of Artificial Intelligence and Machine Learning were implemented for data analysis and detection of breast cancer from a database with 569 patients.
 - Data Cleaning
 - Self-organizing maps
@@ -26,7 +26,7 @@ _This was the final project for the Artificial Inteligence course at the Federal
 
 <img src="images/post-IA1.png?raw=true" />
 
-[View code on Colab](https://colab.research.google.com/)
+[View code on Colab](https://colab.research.google.com/drive/1QaIJh07BPz6B41tV4CaFBwkQl2Xr4r-x?usp=sharing)
 
 ---
 
