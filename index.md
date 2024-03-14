@@ -26,9 +26,31 @@ _This was the final project for the Artificial Inteligence course at the Federal
 
 <img src="images/post-IA1.png?raw=true" />
 
+[View code on Github](https://github.com/muriloholtz/classification_of_brain_tumor/blob/main/brain_tumor_classification.ipynb)
 [View code on Colab](https://colab.research.google.com/drive/1QaIJh07BPz6B41tV4CaFBwkQl2Xr4r-x?usp=sharing)
 
 ---
+
+### Time series forecasting with XGBoost
+Time series forecasting in python using a machine learning model XGBoost to predict energy consumption with python
+
+<img src="images/post-XGBoost.png?raw=true" />
+
+[View code on Github](https://github.com/muriloholtz/time_series_forecasting_w_XGBoost/blob/main/time_series_forecasting_w_XGBoost.ipynb)
+[View code on Colab](https://colab.research.google.com/drive/1mMJ5XlKjn_qHcznWwi36_WSKQopyKnwL?usp=sharing)
+
+---
+
+###Exploratory analysis of economic data with Fred API
+An economic data analysis notebook with python pandas. The data was pulled down for different economic indicators, cleaned and joined.
+
+<img src="images/post-economic.png?raw=true" />
+
+[View code on Github](https://github.com/muriloholtz/economic_data_analysis/blob/main/economic_data_analysis.ipynb)
+[View code on Colab](https://colab.research.google.com/drive/1tla9a2UPGgNUzIqyw6xzBGq3wYc8ImSI?usp=sharing)
+
+---
+
 
 ### Development of classification algorithms with Iris Species dataset
 The best way to know which classification algorithm works better is by testing them. In this work, Iris dataset was separated in groups for training and testing. Also, algorithms such as KNN (K Nearest Neighbours), Naive Bayes and Hunt were developed from scratch [1]. Then, SVM (Support Vector Machine) and MLP (Multi-layer Perceptron) were developed using sklearn [2].
