@@ -26,7 +26,7 @@ _This was the final project for the Artificial Inteligence course at the Federal
 
 <img src="images/post-IA1.png?raw=true" />
 
-[View code on Github](https://github.com/muriloholtz/classification_of_brain_tumor/blob/main/brain_tumor_classification.ipynb)
+[View code on Github](https://github.com/muriloholtz/classification_of_brain_tumor/blob/main/brain_tumor_classification.ipynb) <br>
 [View code on Colab](https://colab.research.google.com/drive/1QaIJh07BPz6B41tV4CaFBwkQl2Xr4r-x?usp=sharing)
 
 ---
@@ -36,7 +36,7 @@ Time series forecasting in python using a machine learning model XGBoost to pred
 
 <img src="images/post-XGBoost.png?raw=true" />
 
-[View code on Github](https://github.com/muriloholtz/time_series_forecasting_w_XGBoost/blob/main/time_series_forecasting_w_XGBoost.ipynb)
+[View code on Github](https://github.com/muriloholtz/time_series_forecasting_w_XGBoost/blob/main/time_series_forecasting_w_XGBoost.ipynb) <br>
 [View code on Colab](https://colab.research.google.com/drive/1mMJ5XlKjn_qHcznWwi36_WSKQopyKnwL?usp=sharing)
 
 ---
@@ -46,7 +46,7 @@ An economic data analysis notebook with python pandas. The data was pulled down 
 
 <img src="images/post-economic.png?raw=true" />
 
-[View code on Github](https://github.com/muriloholtz/economic_data_analysis/blob/main/economic_data_analysis.ipynb)
+[View code on Github](https://github.com/muriloholtz/economic_data_analysis/blob/main/economic_data_analysis.ipynb) <br>
 [View code on Colab](https://colab.research.google.com/drive/1tla9a2UPGgNUzIqyw6xzBGq3wYc8ImSI?usp=sharing)
 
 ---
