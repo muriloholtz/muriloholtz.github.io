@@ -41,7 +41,7 @@ Time series forecasting in python using a machine learning model XGBoost to pred
 
 ---
 
-###Exploratory analysis of economic data with Fred API
+### Exploratory analysis of economic data with Fred API
 An economic data analysis notebook with python pandas. The data was pulled down for different economic indicators, cleaned and joined.
 
 <img src="images/post-economic.png?raw=true" />
