@@ -1,26 +1,50 @@
 body {
-    font-family: Arial, sans-serif; /* Altera a fonte para Arial ou uma fonte genérica sem serifa */
-    padding: 20px 40px; /* Adiciona padding de 20px em todas as direções */
-    margin: 0; /* Remove as margens padrão do body */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-h2, h3 {
-    color: #333; /* Altera a cor do texto para um tom de cinza escuro */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1e88e5;
+}
+
+h3 {
+    color: #4caf50;
 }
 
 p {
-    margin-bottom: 20px; /* Adiciona margem inferior de 20px aos parágrafos */
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 hr {
-    margin-top: 20px; /* Adiciona margem superior de 20px às linhas horizontais */
-    border: none; /* Remove a borda padrão das linhas horizontais */
-    border-top: 1px solid #ccc; /* Adiciona uma borda superior cinza sólida de 1px */
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
 }
-
-.column {
-    width: 100%; /* Define a largura da coluna como 100% */
-    max-width: 800px; /* Define a largura máxima da coluna como 800px */
-    margin: 0 auto; /* Centraliza a coluna na página */
-}
-
