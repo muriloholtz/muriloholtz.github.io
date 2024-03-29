@@ -1,1 +1,26 @@
+body {
+    font-family: Arial, sans-serif; /* Altera a fonte para Arial ou uma fonte genérica sem serifa */
+    padding: 20px; /* Adiciona padding de 20px em todas as direções */
+    margin: 0; /* Remove as margens padrão do body */
+}
+
+h2, h3 {
+    color: #333; /* Altera a cor do texto para um tom de cinza escuro */
+}
+
+p {
+    margin-bottom: 20px; /* Adiciona margem inferior de 20px aos parágrafos */
+}
+
+hr {
+    margin-top: 20px; /* Adiciona margem superior de 20px às linhas horizontais */
+    border: none; /* Remove a borda padrão das linhas horizontais */
+    border-top: 1px solid #ccc; /* Adiciona uma borda superior cinza sólida de 1px */
+}
+
+.column {
+    width: 100%; /* Define a largura da coluna como 100% */
+    max-width: 800px; /* Define a largura máxima da coluna como 800px */
+    margin: 0 auto; /* Centraliza a coluna na página */
+}
 
