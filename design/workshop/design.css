@@ -1,3 +1,19 @@
+.header {
+    width: 100%;
+    height: 190px;
+    margin-bottom:20px;
+    opacity: 1;
+    padding-bottom: 0px;
+    background-image: url("0.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+.header:hover {
+    background-image: url("0.gif");
+  }
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
