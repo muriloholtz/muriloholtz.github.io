@@ -4,13 +4,13 @@
     margin-bottom:20px;
     opacity: 1;
     padding-bottom: 0px;
-    background-image: url("img/0.png");
+    background-image: url("/img/0.png");
     background-repeat: no-repeat;
     background-position: center top;
   }
 
 .header:hover {
-    background-image: url("img/0.gif");
+    background-image: url("/img/0.gif");
   }
 
 
