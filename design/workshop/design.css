@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Altera a fonte para Arial ou uma fonte genérica sem serifa */
-    padding: 20px; /* Adiciona padding de 20px em todas as direções */
+    padding: 20px 40px; /* Adiciona padding de 20px em todas as direções */
     margin: 0; /* Remove as margens padrão do body */
 }
 
