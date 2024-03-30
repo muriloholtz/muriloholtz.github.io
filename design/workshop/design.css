@@ -18,8 +18,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0 50rem;
-    padding: 0 50rem;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0;
+    padding: 0 20px;
 }
 
 .container {
@@ -32,11 +37,11 @@ body {
 }
 
 h2 {
-    color: #1e88e5;
+    color: #333;
 }
 
 h3 {
-    color: #4caf50;
+    color: #252525;
 }
 
 p {
