@@ -18,6 +18,8 @@ float: center;
 margin: 0;
 margin-bottom: 10px;
 padding-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
 }
 
 .column {
