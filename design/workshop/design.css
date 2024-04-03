@@ -80,8 +80,9 @@ iframe {
     opacity: 0.6;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    width: 75%;
+    width: 70%;
     transition: 1s;
+    border-radius: 3rem;
 }
 
 iframe:hover {
@@ -89,6 +90,7 @@ iframe:hover {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     transition: 1s;
+    border-radius: 0rem;
     width: 100%;
 }
 
@@ -97,3 +99,4 @@ hr {
     border-top: 1px solid #ccc;
     margin: 20px 0;
 }
+
