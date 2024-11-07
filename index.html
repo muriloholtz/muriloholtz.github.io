@@ -1,19 +1,44 @@
 <!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+    // Função que adiciona a classe 'fade-out' ao clicar no link
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('a'); // Seleciona todos os links
+
+        // Adiciona um evento de clique a todos os links
+        links.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Previne o redirecionamento imediato
+
+                // Aplica a transição de fade out
+                document.body.classList.add('fade-out');
+
+                // Redireciona após a transição (500ms para coincidir com o CSS)
+                setTimeout(function() {
+                    window.location.href = link.href;
+                }, 500);
+            });
+        });
+    });
+</script>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murilo Holtz Foltran | Data Science and Machine Learning</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.png" type="image/png"> 
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Murilo Holtz Foltran | Data Science and Machine Learning</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.png" type="image/png"> 
+    </head>
+    <body>
 
     <header>
         <nav>
-            <span><a href="#">Home</a></span>
+            <span><a href="">Home</a></span>
             Murilo Holtz Foltran
-            <span><a href="#" id="aboutMeBtn">About me</a></span>
+            <span><a href="about.html">About me</a></span>
         </nav>
     </header>
 
@@ -68,11 +93,27 @@
         
 
         <section class="projects">
+
+            <div class="project-in-progress">
+                <div class="project-image-progress"><img src="projects/p0-IMDb.png" alt="Project0"></div>
+                <div class="project-details">
+                    <p class="hashtags"><span class="in-progress">IN PROGRESS</span> <span>#datascience</span> <span>#NLP</span></p>
+                    <h3 class="project-title">Movie reviews for natural language processing and text analytics</h3>
+                    <p>In this project, I'm developing models to predict the number of positive and negative reviews based on sentiments of a IMDb dataset. This is being developed by using different classification models and deep learning models.</p>
+                    <div class="project-icons">
+                        <a><img src="colab.webp" alt="Project Link"></a>
+                        <a><img src="github.png" alt="GitHub"></a>
+                        <a><img src="pdf.png" alt="Text"></a>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="project">
-                <div class="project-image"><img src="projects/p1-braintumor.png" alt="Project1"></div>
+                <div class="project-image"><a href="p1dsml.html"><img src="projects/p1-braintumor.png" alt="Project1"></a></div>
                 <div class="project-details">
                     <p class="hashtags"><span>#datascience</span> <span>#machinelearning</span></p>
-                    <h3>Classification of brain tumors using convolutional neural networks</h3>
+                    <h3 class="project-title">Classification of brain tumors using convolutional neural networks</h3>
                     <p>In this work, Convolutional Neural Networks were developed for brain tumor detection from different datasets. In addition to the implementation, the algorithms were validated based on metrics that direct us to choose the best model.</p>
                     <div class="project-icons">
                         <a href="https://github.com/muriloholtz/classification_of_brain_tumor/blob/main/brain_tumor_classification.ipynb" target="_blank"><img src="colab.webp" alt="Project Link"></a>
@@ -83,7 +124,7 @@
             </div>
             
             <div class="project">
-                <div class="project-image"><img src="projects/p2-breastcancer.png" alt="Project1"></div>
+                <div class="project-image"><a href="p2dsml.html"><img src="projects/p2-breastcancer.png" alt="Project1"></a></div>
                 <div class="project-details">
                     <p class="hashtags"><span>#medicaldata</span> <span>#machinelearning</span> <span>#python</span></p>
                     <h3>Breast cancer detection with machine learning and classification algorithms</h3>
