@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+    // Função que adiciona a classe 'fade-out' ao clicar no link
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('a'); // Seleciona todos os links
+
+        // Adiciona um evento de clique a todos os links
+        links.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Previne o redirecionamento imediato
+
+                // Aplica a transição de fade out
+                document.body.classList.add('fade-out');
+
+                // Redireciona após a transição (500ms para coincidir com o CSS)
+                setTimeout(function() {
+                    window.location.href = link.href;
+                }, 500);
+            });
+        });
+    });
+</script>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Murilo Holtz Foltran | Data Science and Machine Learning</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.png" type="image/png"> 
+    </head>
+    <body>
+
+    <header>
+        <nav>
+            <span><a href="index.html">Home</a></span>
+            Murilo Holtz Foltran
+            <span><a href="about.html">About me</a></span>
+        </nav>
+    </header>
+
+<div id="aboutMeModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close-btn">&times;</span>
+        <p>Bachelor in Science and Technology, completing my second degree in Computer Science at the Federal University of São Paulo. Always focused on learning and becoming an even better data scientist.
+
+            During my undergraduate studies, I participated in a web development project that resulted in publication in the Institute Of Physics magazine. Additionally, I worked for two years as a data scientist intern at Akaer, where I was responsible for creating and managing the database, developing skills such as SQL, VBA, Python and others. Last year, I completed my final work on the topic "Classification of brain tumors using convolutional neural networks and magnetic resonance images" in which I use Machine Learning models to classify these images.
+            
+            I appreciate a good movie and book. I believe that our personal preferences help us to perceive things more accurately and solve problems.
+            </p>
+    </div>
+</div>
+
+
+    
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <img style="filter:grayscale(100%)"  src="profile.png" alt="Profile Picture">
+            <p>Bachelor of Science and Technology, currently finishing my second degree in Computer Science. In love with programming, Machine Learning and data.</p>
+            <div class="social-icons">
+                
+                <a href="https://www.linkedin.com/in/muriloholtz/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/muriloholtz" target="_blank"><img src="github.png" alt="GitHub"></a>
+            </div>
+        </aside>
+        
+
+
+            <div class="project" style="padding-top: 70px; width: 100%;">
+                <h3 id="project-title">Breast cancer detection with machine learning and classification algorithms</h3>
+                <div class="project-details">
+                    <p id="hashtags"><span>#datascience</span> <span>#machinelearning</span></p>
+                    <p>The project, titled "Breast Cancer Detection using Machine Learning and Classification Algorithms," 
+                        aims to implement machine learning techniques to analyze data and detect breast cancer. Using a dataset of 569 patients,
+                        the study leverages multiple classification algorithms—such as Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees,
+                        and Random Forests—along with Self-Organizing Maps to predict breast cancer based on key diagnostic features.</p>
+                        <figure class="image-container">
+                            <img src="projects/p2-data.png" alt="Project2">
+                            <figcaption>Heatmap os the confusion matrix</figcaption>
+                        </figure>
+                    <p><item><b>Data Preparation and Cleaning:</b> Data on cell nucleus characteristics were collected through Fine-Needle Aspiration, cleaned of null values, and transformed into a usable format, with critical features like radius, texture, perimeter, and area analyzed to aid in diagnosis.</p>
+                        <p><b>Self-Organizing Maps:</b> The project employs Self-Organizing Maps, an unsupervised learning method inspired by neurophysics, which organizes patient data in a two-dimensional map to highlight patterns, effectively distinguishing between malignant and benign cases.</p>
+                        <p><b>Classification Algorithms:</b> Four classification models—Logistic Regression, KNN, Decision Tree, and Random Forest—were implemented to analyze and classify the data. These models underwent training and testing, achieving varied results in terms of accuracy and effectiveness.</p>
+                        <figure class="image-container">
+                            <img src="projects/p2-res.png" alt="Project2">
+                            <figcaption>Representação gráfica das predições vs. dados reais</figcaption>
+                        </figure>
+                    
+                    <h3 style="text-align: center; padding: 30px" class="project-title">See more</h3>
+                    <div class="project-icons" style="gap: 70px; justify-content: center;">
+                        
+                        <a href="https://colab.research.google.com/drive/1QaIJh07BPz6B41tV4CaFBwkQl2Xr4r-x?usp=sharing" target="_blank"><img style="height: 50px" src="colab.webp" alt="Project Link"></a>
+                        <a href="https://github.com/muriloholtz/breastcancerdetection" target="_blank"><img style="height: 50px"  src="github.png" alt="GitHub"></a>
+                        <a href="https://github.com/muriloholtz/breastcancerdetection/blob/main/Murilo_Holtz_relatorio.pdf" target="_blank"><img style="height: 50px"  src="pdf.png" alt="Text"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+    </div>
+
+        <script src="scripts.js"></script>
+    </body>
+    </html>
+    
